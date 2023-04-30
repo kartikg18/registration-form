@@ -1,6 +1,7 @@
 import React from 'react';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
-import { Button, Checkbox, Form, Row,Input, Col } from 'antd';
+import { Button, Checkbox, Form, Row,Input } from 'antd';
+// import Signup  from './Signup';
 import Link from 'antd/es/typography/Link';
 
 function Login() {
@@ -48,7 +49,7 @@ function Login() {
         <Button type="primary" htmlType="submit" className="login-form-button">
           Log in
         </Button>
-        Or <Link to="">register now!</Link>
+        Or <Link to="<Signup/>">register now!</Link>
       </Form.Item>
     </Form>
     </Row>
